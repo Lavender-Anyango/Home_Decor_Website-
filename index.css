@@ -24,16 +24,19 @@ button{
     border-radius: 25px;
     padding: 12px 14px;
     text-align: right;
+    background-color: grey;
 }
 #stats-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
+   
 }
 .ikea{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 10px;
+    color: darkgray;
 }
 .vase {
     display: grid;
@@ -109,8 +112,8 @@ button{
     padding-left: 30%;
 }
 #reviewdiv{
-    display: flex;
-   
+    /* display: flex; */
+   margin-right: 40%;
     padding-top: 10%;
 
 }
@@ -118,7 +121,6 @@ button{
     padding-left: 0; 
     float: left;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 #reviewpic {
@@ -131,5 +133,22 @@ button{
     grid-template-rows: repeat(4, 1fr);
 }
 #header1{
-    font-style: italic;
+    font-size:xx-large;
+}
+body{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#ikea1{
+    font-style:oblique;
+    color: grey;
+    font-weight: 500;
+
+}
+#diptyque{
+    
+}
+.stats{
+    font-size: 180%;
+    font-weight: bold;
 }
