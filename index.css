@@ -109,8 +109,8 @@ button{
     padding-left: 30%;
 }
 #reviewdiv{
-    display: grid;
-    grid-template-columns: repeat(1fr, 1fr);
+    display: flex;
+   
     padding-top: 10%;
 
 }
@@ -130,4 +130,6 @@ button{
     grid-template-rows: table-row;
     grid-template-rows: repeat(4, 1fr);
 }
-   
+#header1{
+    font-style: italic;
+}
