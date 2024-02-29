@@ -115,8 +115,7 @@ button{
 
 }
 .reviewer {
-    padding-left: 0; /* Removed to avoid unnecessary padding */
-    /* display: flex; */
+    padding-left: 0; 
     float: left;
     flex-direction: column;
     justify-content: space-between;
@@ -126,13 +125,9 @@ button{
     width: 15%; 
     height: 25%;
 }
-
-#reviewtext {
-    /* width: 100%; 
-    text-align: justify;  */
-    grid-column-start: 2;
+.footer{
+    display: grid;
+    grid-template-rows: table-row;
+    grid-template-rows: repeat(4, 1fr);
 }
-body{
-    padding: 5% 5% 5% 5%;
-}
-
+   
