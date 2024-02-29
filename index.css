@@ -74,8 +74,8 @@ button{
 .footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* Creates 4 columns */
-    gap: 20px; /* Adjust the gap between grid items as needed */
-    width: 100%; /* Ensures the footer takes up the full width of its container */
+    gap: 20px; 
+    width: 100%; 
 
 }
 #vase5{
@@ -145,10 +145,16 @@ body{
     font-weight: 500;
 
 }
-#diptyque{
-    
-}
 .stats{
     font-size: 180%;
     font-weight: bold;
+}
+.trial{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 30%;
+}
+.ven{
+    width: 70px;
+    height: 90px;
 }
