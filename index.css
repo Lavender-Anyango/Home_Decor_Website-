@@ -1,0 +1,138 @@
+.topnav {
+    /* text-decoration: none;
+    color: black;
+    width: 10%;
+    float: right; */
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    width: 10%;
+}
+#text{
+    border: 1px dotted grey;
+}
+.maindiv{
+    border: none;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 10%;
+}
+button{
+    border-radius: 25px;
+    padding: 12px 14px;
+    text-align: right;
+}
+#stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.ikea{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+.vase {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px; 
+}
+
+.vase-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.vase-item img {
+    width: 50%; 
+    height: 70%;
+}
+.homedecor{
+    border: none;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 10%;
+}
+.header3{
+    text-align: center;
+}
+#vase7{
+    width: 60%;
+    height: 80%;
+}
+.icons{
+    width: 50%;
+    height: 50%;
+}
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Creates 4 columns */
+    gap: 20px; /* Adjust the gap between grid items as needed */
+    width: 100%; /* Ensures the footer takes up the full width of its container */
+
+}
+#vase5{
+    padding-top: 10px;
+}
+.maindiv1{
+    float: left;
+    margin-right: 73%;
+}
+.maindiv2{
+    float: right;
+    margin-left: 73%;
+    margin-top: -80%;
+}
+#videobutton{
+    border: none;
+    display: inline-flex;
+}
+.cara{
+    float: left;
+}
+#review{
+    width: 30%;
+    height: 45%;
+}
+#reviewtext{
+    float: right;
+}
+#reviewpic{
+    width: 30%;
+    height: 40%;
+}
+.reviewer{
+    padding-left: 30%;
+}
+#reviewdiv{
+    display: grid;
+    grid-template-columns: repeat(1fr, 1fr);
+    padding-top: 10%;
+
+}
+.reviewer {
+    padding-left: 0; /* Removed to avoid unnecessary padding */
+    /* display: flex; */
+    float: left;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#reviewpic {
+    width: 15%; 
+    height: 25%;
+}
+
+#reviewtext {
+    /* width: 100%; 
+    text-align: justify;  */
+    grid-column-start: 2;
+}
+body{
+    padding: 5% 5% 5% 5%;
+}
+
